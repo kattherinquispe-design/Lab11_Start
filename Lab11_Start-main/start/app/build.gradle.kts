@@ -80,7 +80,7 @@ dependencies {
     implementation("androidx.test:runner:1.6.2")
     ksp("com.google.dagger:hilt-compiler:2.47")
 
-    //Firebase
+    // Firebase (usando un solo BOM actualizado)
     implementation(platform("com.google.firebase:firebase-bom:32.5.0"))
     implementation("com.google.firebase:firebase-analytics")
     implementation("com.google.firebase:firebase-crashlytics")
@@ -90,7 +90,7 @@ dependencies {
     implementation("com.google.firebase:firebase-config")
     implementation("com.google.firebase:firebase-messaging")
 
-    //Test
+    // Test
     testImplementation("junit:junit:4.+")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.compose.ui:ui-test-junit4")
